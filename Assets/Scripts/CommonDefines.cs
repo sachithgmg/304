@@ -1,16 +1,21 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using System;
+namespace AssemblyCSharp.Assets.Scripts
+{
+    public enum Suits
+    {
+        Spades,
+        Heart,
+        Diomond,
+        Crub
+    }
 
-public class CommonDefines : MonoBehaviour {
-
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public enum Values
+    {
+        Quen = 2,
+        King = 5,
+        Ten = 10,
+        Ace = 11,
+        Nine = 20,
+        Jack = 30
+    }
 }
